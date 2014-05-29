@@ -1,10 +1,36 @@
 <html>
+{% load static %}
 	<head>
-		<title>Bistro</title>
+		<title> Grad- Bistro. Making grad school Applications simple</title>
+		<link rel = "stylesheet" href = "{% static "style2.css" %}"/>
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
+
 	<body>
-		<h1>Bistro says ...</h1>
-		Hello World! <strong>{{boldmessage}}</strong><br />
-		<a href = "/rango/about/">About</a><br />
+	<div id = "slide1">
+			<div id = "mainheader">
+				<center>
+					<h1>Grad Bistro</h1>
+					<h2>Grad School Application Made Simple</h2>
+					<div id = "coffee"></div>
+					<div id = "login"></div>
+					<div id = "comingsoon"><h3>Smoothest Login Ever Coming Soon</h3></div>
+				</center>
+			</div>
+			
+			
+		</div>
+		<div id = "slide2">
+			<center>
+				<div id = "mapbox"></div>
+				<div id = "lone"></div>
+				<div id = "ltwo"></div>
+				<div id = "lthree"></div>
+				<div id = "textbox"><h3 class = "quoteone"> With Grad Bistro, you can use our tools to grind through tons of data to select the school which caters to your interesets, budget and other preferences </h3> </div>
+			</center>
+		</div>
+
 	</body>
+
 </html>
